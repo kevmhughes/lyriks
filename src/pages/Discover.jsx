@@ -52,6 +52,7 @@ const Discover = () => {
           />
         ))}
       </div>
+
     </div>
   );
 };
