@@ -32,6 +32,10 @@ The REST API endpoints are provided by the Shazam API.
 <img src="readme-images/lyriks_lyrics.png" width="250"/>
 </kbd>
 
+<kbd>
+<img src="readme-images/lyriks_player.png" width="250"/>
+</kbd>
+
 # Tools Used
 
 ### Development Environment
