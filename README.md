@@ -11,7 +11,7 @@ The UI was built using **React**, **Vite** and **Tailwind**.
 The REST API endpoints are provided by the Shazam API.
 
 # Description
-**Lyriks** is a fully responsive Spotify clone music app built with **React**, **Tailwind** and **Vite** which uses **Redux** for the state management. The app features a fully functional music player which allows the user to listen to their selected songs. On accessing the app, the user is provided with the top charts based on their country location. The app also allows the user to search for songs by title, artist and genre as well as being able to access the lyrics for a selected song. 
+**Lyriks** is a fully responsive Spotify clone music app built with **React**, **Tailwind** and **Vite** which uses **Redux** for the state management. The app features a fully functional music player which allows the user to listen to their selected songs. On accessing the app, the user is provided with the current top charts. The app also allows the user to search for songs by title, artist and genre as well as being able to access the lyrics for a selected song. 
 
  
 # Take a Look at the App
@@ -59,7 +59,7 @@ The REST API endpoints are provided by the Shazam API.
 ### Users are able to:
 
 * see the current top charts 
-* see the current top charts based on their location
+* see the current top charts based on their country
 * see the current top artists
 * see the lyrics of their favourite songs
 * see related songs
