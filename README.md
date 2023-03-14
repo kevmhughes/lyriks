@@ -66,6 +66,6 @@ The REST API endpoints are provided by the Shazam API.
 * search for songs by genre
 * search for songs by title
 * search for songs by artist
-* use the music player to listen to their selected songs
+* use the fully functional music player to listen to their selected songs
 
 </body>
