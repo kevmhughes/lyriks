@@ -19,7 +19,7 @@ The REST API endpoints are provided by the Shazam API.
 ## Desktop:
 
 <kbd>
-<img src="readme-images/lyriks_desktop.png" />
+<img src="readme-images/lyriks-desktop.png" />
 </kbd>
 
 ## Mobile:
@@ -56,7 +56,7 @@ The REST API endpoints are provided by the Shazam API.
 
 # Features
 
-### Through the endpoints that expose the functionalities of Shazam, users are able to:
+### Users are able to:
 
 * see the current top charts 
 * see the current top charts based on their location
