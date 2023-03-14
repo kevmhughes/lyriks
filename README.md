@@ -19,7 +19,7 @@ The REST API endpoints are provided by the Shazam API.
 ## Desktop:
 
 <kbd>
-<img src="readme-images/lyriks-desktop.png" />
+<img src="readme-images/desktop_lyriks.png" />
 </kbd>
 
 ## Mobile:
