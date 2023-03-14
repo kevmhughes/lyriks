@@ -1,136 +1,67 @@
-# Project Lyrics
+# Lyriks 
 
-Develop an elegant React.js Music Application. 
+#### Lyriks is a Spotify clone music app built using React, Redux, Vite, Tailwind and the Shazam API.
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+Use the app [here](https://lyriks-shazam-app.netlify.app/)
 
-# Contributing
+## Client Side:
+The UI was built using **React**, **Vite** and **Tailwind**.
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+## Rapid API:
+The REST API endpoints are provided by the Shazam API obtained through the Rapid API marketplace.
 
+# Description
+**Lyriks** is a fully responsive Spotify clone music app built with **React**, **Tailwind** and **Vite** which uses **Redux** for the state management. The app features a fully functional music player which allows the user to listen to their selected songs. On accessing the app, the user is provided with the top charts based on their country location. The app also allows the user to search for songs by title, artist and genre as well as being able to access the lyrics for a selected song. 
 
-## System Requirements
+ 
+# Take a Look at the App
 
-To get started with development, you need to install few tools
+## Desktop:
 
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+<kbd>
+<img src="readme-images/lyriks-desktop.png" />
+</kbd>
 
-   To check your version of git, run:
+## Mobile:
 
-   ```shell
-    git --version
-   ```
+<kbd>
+<img src="readme-images/lyriks-mobile.png" width="250"/>
+</kbd>
 
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+<kbd>
+<img src="readme-images/lyriks-lyrics.png" width="250"/>
+</kbd>
 
-   To check your version of node, run:
+# Tools Used
 
-   ```shell
-    node --version
-   ```
+### Development Environment
+* Node.js
 
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
+### Libraries & Frameworks
+* React 
+* Redux
+* Vite
+* Tailwind 
 
-   To check your version of npm, run:
+### Hosting Frontend
+* Netlify
 
-   ```shell
-    npm --version
-   ```
+### REST API
+* Rapid API marketplace
+* Shazam API
 
-## Setup
+# Features
 
-To set up a development environment, please follow these steps:
+### Through the endpoints that expose the functionalities of Shazam, users are able to:
 
-1. Clone the repo
+* see the current top charts 
+* see the current top charts based on their location
+* see the current top artists
+* see the lyrics of their favourite songs
+* see related songs
+* search for songs by genre
+* search for songs by title
+* search for songs by artist
+* use the music player to listen to their selected songs
 
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
-
-2. Change directory to the project directory
-
-    ```shell
-    cd project1_team4_repository
-    ```
-
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
-
-    If you get an error, please check the console for more information.
-
-    If you don't get an error, you are ready to start development.
-
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
-
-    Project will be running in the browser.
-
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Issues
-
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
-
-
-## Pull Request
-
-There are 2 main work flows when dealing with pull requests:
-
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
-
-Here we are going to focus on 2. Creating a Topical Branch:
-
-
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
-
-   ```bash
-    git pull origin main
-   ```
-
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
+</body>
